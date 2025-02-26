@@ -30,10 +30,10 @@ export default function TrophyExotics() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#2c1810] mb-8 text-center">The Ultimate Exotic Hunting Experience</h2>
             <p className="text-lg text-[#2c1810] leading-relaxed mb-6">
-              At Honest Outfitters, we offer unparalleled opportunities to pursue some of the world's most magnificent exotic species. Our carefully managed hunting grounds in Texas provide the perfect habitat for a diverse range of exotic game, ensuring successful hunts and impressive trophies.
+              At Honest Outfitters, we offer unparalleled opportunities to pursue some of the world&apos;s most magnificent exotic species. Our carefully managed hunting grounds in Texas provide the perfect habitat for a diverse range of exotic game, ensuring successful hunts and impressive trophies.
             </p>
             <p className="text-lg text-[#2c1810] leading-relaxed">
-              Whether you're an experienced hunter looking to add rare species to your collection or a newcomer to exotic game hunting, our expert guides will provide personalized attention and knowledge to enhance your experience. With luxury accommodations and gourmet dining, your exotic hunting adventure will be as comfortable as it is thrilling.
+              Whether you&apos;re an experienced hunter looking to add rare species to your collection or a newcomer to exotic game hunting, our expert guides will provide personalized attention and knowledge to enhance your experience. With luxury accommodations and gourmet dining, your exotic hunting adventure will be as comfortable as it is thrilling.
             </p>
           </div>
         </div>
@@ -312,7 +312,7 @@ export default function TrophyExotics() {
             <div className="lg:w-1/2">
               <h3 className="text-3xl font-semibold text-[#2c1810] mb-4">Expert Guides & Trophy Care</h3>
               <p className="text-lg text-[#2c1810] leading-relaxed mb-6">
-                Our team of experienced guides specializes in exotic game hunting, with extensive knowledge of each species' behavior and habitat. They'll ensure you have the best possible opportunity for a successful hunt and a trophy-quality harvest.
+                Our team of experienced guides specializes in exotic game hunting, with extensive knowledge of each species&apos; behavior and habitat. They&apos;ll ensure you have the best possible opportunity for a successful hunt and a trophy-quality harvest.
               </p>
               <p className="text-lg text-[#2c1810] leading-relaxed">
                 After your successful hunt, we provide professional trophy care services, including field dressing, skinning, and preparation for taxidermy. We can also arrange shipping to your preferred taxidermist to ensure your trophy is preserved perfectly.
@@ -336,7 +336,7 @@ export default function TrophyExotics() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "My Axis deer hunt with Honest Outfitters exceeded all expectations. The guides knew exactly where to find trophy-quality animals, and the accommodations were first-class. I'm already planning my return trip for a Red Stag!"
+                  &quot;My Axis deer hunt with Honest Outfitters exceeded all expectations. The guides knew exactly where to find trophy-quality animals, and the accommodations were first-class. I&apos;m already planning my return trip for a Red Stag!&quot;
                 </p>
               </div>
               <div className="text-right">
@@ -353,7 +353,7 @@ export default function TrophyExotics() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "The Super Exotic package was worth every penny. I harvested a magnificent Scimitar Oryx and enjoyed the luxury accommodations and gourmet meals. The attention to detail in the trophy preparation was impressive. A world-class experience!"
+                  &quot;The Super Exotic package was worth every penny. I harvested a magnificent Scimitar Oryx and enjoyed the luxury accommodations and gourmet meals. The attention to detail in the trophy preparation was impressive. A world-class experience!&quot;
                 </p>
               </div>
               <div className="text-right">

@@ -97,7 +97,7 @@ export default function Home() {
                 Our team consists of experienced guides who know the terrain, understand animal behavior, and are committed to your success. With decades of combined experience, our guides ensure that every hunt is both productive and memorable.
               </p>
               <p className="text-lg text-[#2c1810] leading-relaxed">
-                Whether you're a seasoned hunter or embarking on your first adventure, our guides provide personalized attention and expert knowledge to enhance your experience.
+                Whether you&apos;re a seasoned hunter or embarking on your first adventure, our guides provide personalized attention and expert knowledge to enhance your experience.
               </p>
             </div>
           </div>
@@ -107,10 +107,10 @@ export default function Home() {
             <div className="md:w-1/2 order-2 md:order-1">
               <h3 className="text-3xl font-semibold text-[#2c1810] mb-4">Conservation Commitment</h3>
               <p className="text-lg text-[#2c1810] leading-relaxed mb-6">
-                At Honest Outfitters, we're dedicated to sustainable hunting practices that preserve wildlife populations and habitats for future generations. We work closely with wildlife management experts to ensure our hunts contribute positively to conservation efforts.
+                At Honest Outfitters, we&apos;re dedicated to sustainable hunting practices that preserve wildlife populations and habitats for future generations. We work closely with wildlife management experts to ensure our hunts contribute positively to conservation efforts.
               </p>
               <p className="text-lg text-[#2c1810] leading-relaxed">
-                By choosing Honest Outfitters, you're supporting responsible wildlife management and habitat preservation across our hunting territories.
+                By choosing Honest Outfitters, you&apos;re supporting responsible wildlife management and habitat preservation across our hunting territories.
               </p>
             </div>
             <div className="md:w-1/2 order-1 md:order-2">
@@ -226,7 +226,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-3">Budget Friendly Hunts</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Quality hunting experiences that won't break the bank, perfect for filling your freezer.
+                  Quality hunting experiences that won&apos;t break the bank, perfect for filling your freezer.
                 </p>
                 <Link 
                   href="/budget-hunts"
@@ -326,7 +326,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                "My experience with Honest Outfitters exceeded all expectations. The guides were knowledgeable, the accommodations were top-notch, and I harvested the trophy of a lifetime. I'll definitely be back!"
+                &quot;My experience with Honest Outfitters exceeded all expectations. The guides were knowledgeable, the accommodations were top-notch, and I harvested the trophy of a lifetime. I&apos;ll definitely be back!&quot;
               </p>
             </div>
             
@@ -347,7 +347,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                "Our corporate retreat with Honest Outfitters was the perfect team-building experience. The staff took care of every detail, allowing us to focus on bonding and enjoying the hunt. The memories we made will last a lifetime."
+                &quot;Our corporate retreat with Honest Outfitters was the perfect team-building experience. The staff took care of every detail, allowing us to focus on bonding and enjoying the hunt. The memories we made will last a lifetime.&quot;
               </p>
             </div>
             
@@ -368,7 +368,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                "As a first-time hunter, I was nervous, but the team at Honest Outfitters made me feel comfortable and confident. Their patience and expertise helped me harvest my first deer, and the chef prepared it beautifully. An unforgettable experience!"
+                &quot;As a first-time hunter, I was nervous, but the team at Honest Outfitters made me feel comfortable and confident. Their patience and expertise helped me harvest my first deer, and the chef prepared it beautifully. An unforgettable experience!&quot;
               </p>
             </div>
           </div>
