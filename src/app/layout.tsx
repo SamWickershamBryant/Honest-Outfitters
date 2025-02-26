@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +42,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center">
               <Link href="/">
-                <img 
+                <Image 
                   src="/assets/logo_white.png" 
                   alt="Honest Outfitters" 
                   width={150}

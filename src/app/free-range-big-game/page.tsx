@@ -33,7 +33,7 @@ export default function FreeRangeBigGame() {
               At Honest Outfitters, we specialize in providing authentic free-range big game hunting experiences across North America. Our hunts take place on vast, carefully selected territories where animals roam freely in their natural habitat, ensuring a challenging and rewarding adventure.
             </p>
             <p className="text-lg text-[#2c1810] leading-relaxed">
-              With our expert guides who possess intimate knowledge of the land and animal behavior, you'll have the opportunity to pursue trophy-quality game while enjoying the beauty of unspoiled wilderness. Whether you're seeking your first big game harvest or looking to add a specific trophy to your collection, our free-range hunts offer the authentic challenge that serious hunters crave.
+              With our expert guides who possess intimate knowledge of the land and animal behavior, you&apos;ll have the opportunity to pursue trophy-quality game while enjoying the beauty of unspoiled wilderness. Whether you&apos;re seeking your first big game harvest or looking to add a specific trophy to your collection, our free-range hunts offer the authentic challenge that serious hunters crave.
             </p>
           </div>
         </div>
@@ -422,7 +422,7 @@ export default function FreeRangeBigGame() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "The free-range elk hunt with Honest Outfitters was everything I hoped for and more. My guide knew exactly where to find the bulls, and his expertise helped me harvest a magnificent 6x6. The accommodations and food were top-notch too!"
+                  &quot;The free-range elk hunt with Honest Outfitters was everything I hoped for and more. My guide knew exactly where to find the bulls, and his expertise helped me harvest a magnificent 6x6. The accommodations and food were top-notch too!&quot;
                 </p>
               </div>
               <div className="text-right">
@@ -439,7 +439,7 @@ export default function FreeRangeBigGame() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "As a first-time big game hunter, I was nervous about my Alaskan moose hunt. The team at Honest Outfitters made me feel comfortable and confident. Their patience and expertise helped me harvest a beautiful bull moose. An experience I'll never forget!"
+                  &quot;As a first-time big game hunter, I was nervous about my Alaskan moose hunt. The team at Honest Outfitters made me feel comfortable and confident. Their patience and expertise helped me harvest a beautiful bull moose. An experience I&apos;ll never forget!&quot;
                 </p>
               </div>
               <div className="text-right">

@@ -19,7 +19,7 @@ export default function BudgetHunts() {
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Budget Friendly Hunts</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Quality hunting experiences that won't break the bank
+            Quality hunting experiences that won&apos;t break the bank
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function BudgetHunts() {
               At Honest Outfitters, we believe that exceptional hunting experiences should be accessible to everyone. Our budget-friendly hunts provide the perfect opportunity to enjoy the thrill of the hunt without the premium price tag, while still maintaining our high standards for quality and service.
             </p>
             <p className="text-lg text-[#2c1810] leading-relaxed">
-              Whether you're looking for meat for your freezer, introducing a new hunter to the sport, or simply want to enjoy more time in the field without breaking the bank, our budget-friendly options deliver memorable experiences at affordable prices.
+              Whether you&apos;re looking for meat for your freezer, introducing a new hunter to the sport, or simply want to enjoy more time in the field without breaking the bank, our budget-friendly options deliver memorable experiences at affordable prices.
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function BudgetHunts() {
               <div className="p-8">
                 <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Management Hunts</h3>
                 <p className="text-[#2c1810] mb-6">
-                  Our management hunts offer the opportunity to harvest mature animals that don't meet our trophy criteria but still provide an exciting hunting experience and quality meat.
+                  Our management hunts offer the opportunity to harvest mature animals that don&apos;t meet our trophy criteria but still provide an exciting hunting experience and quality meat.
                 </p>
                 <ul className="list-disc pl-6 text-[#2c1810] space-y-2 mb-6">
                   <li>Management Whitetail Bucks</li>
@@ -282,7 +282,7 @@ export default function BudgetHunts() {
             <div className="lg:w-1/2">
               <h3 className="text-3xl font-semibold text-[#2c1810] mb-4">Quality Without the Premium Price</h3>
               <p className="text-lg text-[#2c1810] leading-relaxed mb-6">
-                Our budget hunts may be more affordable, but we never compromise on the quality of the experience. You'll still receive expert guidance, access to well-managed hunting grounds, and the same level of service that defines all Honest Outfitters experiences.
+                Our budget hunts may be more affordable, but we never compromise on the quality of the experience. You&apos;ll still receive expert guidance, access to well-managed hunting grounds, and the same level of service that defines all Honest Outfitters experiences.
               </p>
               <ul className="list-disc pl-6 text-[#2c1810] space-y-2">
                 <li>Experienced, knowledgeable guides</li>
@@ -336,7 +336,7 @@ export default function BudgetHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "I brought my son on his first hunt with Honest Outfitters' Family Package. The guides were patient and educational, making it a perfect learning experience. We filled our freezer with quality meat and made memories that will last a lifetime."
+                  &quot;I brought my son on his first hunt with Honest Outfitters&apos; Family Package. The guides were patient and educational, making it a perfect learning experience. We filled our freezer with quality meat and made memories that will last a lifetime.&quot;
                 </p>
               </div>
               <div className="text-right">
@@ -353,7 +353,7 @@ export default function BudgetHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "The Weekend Package was perfect for what I needed. I harvested two does and a management buck, and the processing service made it so convenient. Quality experience without breaking the bank - I'll definitely be back next season!"
+                  &quot;The Weekend Package was perfect for what I needed. I harvested two does and a management buck, and the processing service made it so convenient. Quality experience without breaking the bank - I&apos;ll definitely be back next season!&quot;
                 </p>
               </div>
               <div className="text-right">

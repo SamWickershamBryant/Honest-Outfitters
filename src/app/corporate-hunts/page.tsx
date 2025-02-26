@@ -33,7 +33,7 @@ export default function CorporateHunts() {
               At Honest Outfitters, we understand that the strongest business relationships are often built outside the boardroom. Our corporate hunting packages provide the perfect blend of luxury, adventure, and camaraderie, creating an environment where meaningful connections flourish.
             </p>
             <p className="text-lg text-[#2c1810] leading-relaxed">
-              Whether you're looking to reward top performers, strengthen team bonds, or entertain important clients, our customized corporate hunts deliver an unforgettable experience that achieves your business objectives while providing the thrill of the hunt.
+              Whether you&apos;re looking to reward top performers, strengthen team bonds, or entertain important clients, our customized corporate hunts deliver an unforgettable experience that achieves your business objectives while providing the thrill of the hunt.
             </p>
           </div>
         </div>
@@ -343,7 +343,7 @@ export default function CorporateHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "Our sales team's retreat with Honest Outfitters was the perfect blend of luxury, adventure, and team building. The connections made during our hunt have translated to improved collaboration back at the office. Worth every penny!"
+                  &quot;Our sales team&apos;s retreat with Honest Outfitters was the perfect blend of luxury, adventure, and team building. The connections made during our hunt have translated to improved collaboration back at the office. Worth every penny!&quot;
                 </p>
               </div>
               <div className="text-right">
@@ -360,7 +360,7 @@ export default function CorporateHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  "We brought our top clients for a corporate hunt, and Honest Outfitters exceeded all expectations. The private lodge, gourmet meals, and exceptional hunting created the perfect environment for strengthening our business relationships."
+                  &quot;We brought our top clients for a corporate hunt, and Honest Outfitters exceeded all expectations. The private lodge, gourmet meals, and exceptional hunting created the perfect environment for strengthening our business relationships.&quot;
                 </p>
               </div>
               <div className="text-right">
