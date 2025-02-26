@@ -8,7 +8,7 @@ export default function TrophyExotics() {
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/assets/5_start_trophy_exotics/exotic1.JPEG"
+            src="/assets/5_start_trophy_exotics/trophy_hunt1.JPEG"
             alt="Trophy Exotic Hunting"
             fill
             className="object-cover"
@@ -49,7 +49,7 @@ export default function TrophyExotics() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/5_start_trophy_exotics/exotic2.JPEG"
+                  src="/assets/5_start_trophy_exotics/trophy_premium.PNG"
                   alt="Premium Exotics"
                   fill
                   className="object-cover"
@@ -63,7 +63,7 @@ export default function TrophyExotics() {
                   <li>Blackbuck Antelope</li>
                   <li>Aoudad Sheep</li>
                   <li>Nilgai Antelope</li>
-                  <li>Sika Deer</li>
+                  <li>Arabian/Scimitar Oryx</li>
                 </ul>
                 <p className="text-[#2c1810]">
                   Our premium exotics offer exceptional hunting opportunities with abundant populations and impressive trophy potential, all within carefully managed habitats.
@@ -75,7 +75,7 @@ export default function TrophyExotics() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/5_start_trophy_exotics/exotic3.JPEG"
+                  src="/assets/5_start_trophy_exotics/kudu.JPG"
                   alt="Super Exotics"
                   fill
                   className="object-cover"
@@ -84,12 +84,12 @@ export default function TrophyExotics() {
               <div className="p-8">
                 <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Super Exotics</h3>
                 <ul className="list-disc pl-6 text-[#2c1810] space-y-2 mb-6">
-                  <li>Red Stag</li>
-                  <li>Scimitar Oryx</li>
-                  <li>Arabian Oryx</li>
+                  <li>Blesbok</li>
+                  <li>Sable Bull</li>
+                  <li>Wildebeest</li>
                   <li>Addax</li>
                   <li>Bongo</li>
-                  <li>Water Buffalo</li>
+                  <li>Kudu</li>
                 </ul>
                 <p className="text-[#2c1810]">
                   Our super exotics collection features rare and magnificent species from around the world, offering truly unique hunting experiences and impressive trophy opportunities.
@@ -115,7 +115,7 @@ export default function TrophyExotics() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">3-day guided hunt</span>
+                    <span className="text-[#2c1810]">2-day guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -164,7 +164,7 @@ export default function TrophyExotics() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">5-day guided hunt</span>
+                    <span className="text-[#2c1810]">3-day guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -188,7 +188,7 @@ export default function TrophyExotics() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Trophy preparation and shipping assistance</span>
+                    <span className="text-[#2c1810]">Trophy preparation and quartering</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -216,7 +216,7 @@ export default function TrophyExotics() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">7-day guided hunt</span>
+                    <span className="text-[#2c1810]">4-day guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -240,7 +240,7 @@ export default function TrophyExotics() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Full taxidermy services included</span>
+                    <span className="text-[#2c1810]">Trophy preparation and quartering</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -280,7 +280,7 @@ export default function TrophyExotics() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/5_start_trophy_exotics/exotic2.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_lodging3.JPG"
                   alt="Luxury Accommodations"
                   fill
                   className="object-cover rounded-lg shadow-xl"
@@ -302,7 +302,7 @@ export default function TrophyExotics() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/5_start_trophy_exotics/exotic3.JPEG"
+                  src="/assets/5_start_trophy_exotics/trophy_guide.jpg"
                   alt="Expert Guides"
                   fill
                   className="object-cover rounded-lg shadow-xl"

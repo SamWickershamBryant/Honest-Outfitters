@@ -61,17 +61,18 @@ export default function Home() {
           {/* About Section 1 */}
           <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
             <div className="md:w-1/2 order-2 md:order-1">
-              <h3 className="text-3xl font-semibold text-[#2c1810] mb-4">Our Heritage</h3>
+              <h3 className="text-3xl font-semibold text-[#2c1810] mb-4">The Honest Experience</h3>
               <p className="text-lg text-[#2c1810] leading-relaxed mb-6">
-                Founded by passionate hunters with deep roots in Texas, Honest Outfitters was born from a desire to share the authentic hunting experience with others. Our team brings generations of hunting knowledge and a profound respect for the land and wildlife.
+                At our core, we believe in doing things the right way - with integrity, transparency, and a commitment to quality. That&apos;s why we take the time to build real, personal connections with the ranchers who provide our animals. By working directly with trusted partners who share our values, we cut out the middlemen and pass the savings on to you.
               </p>
               <p className="text-lg text-[#2c1810] leading-relaxed">
-                We believe in ethical hunting practices, conservation efforts, and creating memories that last a lifetime. Every hunt is carefully planned to ensure both success and sustainability.
+                No inflated prices. No hidden fees. Just honest, fair pricing for the highest quality animals.
+                When you hunt with us, you&apos;re not just buying an experience – you&apos;re becoming part of a family that values authenticity, respect, and fairness. That&apos;s The Honest Experience.
               </p>
             </div>
             <div className="md:w-1/2 order-1 md:order-2">
               <Image
-                src="/assets/free_range_big_game_lf/free_hunt1.JPEG"
+                src="/assets/free_range_big_game_lf/free_hunt3.JPEG"
                 alt="Honest Outfitters Heritage"
                 width={600}
                 height={400}
@@ -84,7 +85,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
             <div className="md:w-1/2">
               <Image
-                src="/assets/5_star_corporate_hunts/corporate1.JPEG"
+                src="/assets/free_range_big_game_lf/free_guide_crop.jpg"
                 alt="Expert Guides"
                 width={600}
                 height={400}
@@ -136,7 +137,7 @@ export default function Home() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt2.JPEG"
+                  src="/assets/free_range_big_game_lf/free_hunt1.JPEG"
                   alt="Free Range Big Game"
                   fill
                   className="object-cover"
@@ -163,7 +164,7 @@ export default function Home() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate2.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_hunt4.JPEG"
                   alt="Corporate Hunts"
                   fill
                   className="object-cover"
@@ -190,7 +191,7 @@ export default function Home() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
-                  src="/assets/5_start_trophy_exotics/exotic3.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_hunt.JPEG"
                   alt="Trophy Exotics"
                   fill
                   className="object-cover"
@@ -217,7 +218,7 @@ export default function Home() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
-                  src="/assets/meat_budget_friendly/budget1.JPEG"
+                  src="/assets/meat_budget_friendly/budget_hunt13.JPEG"
                   alt="Budget Friendly Hunts"
                   fill
                   className="object-cover"
@@ -261,7 +262,7 @@ export default function Home() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate3.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_lodging1.JPG"
                   alt="Luxury Lodge"
                   fill
                   className="object-cover rounded-lg shadow-xl"
@@ -283,7 +284,7 @@ export default function Home() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate4.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_food4.JPG"
                   alt="Gourmet Dining"
                   fill
                   className="object-cover rounded-lg shadow-xl"
@@ -314,19 +315,19 @@ export default function Home() {
               <div className="flex items-center mb-6">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
                   <Image
-                    src="/assets/free_range_big_game_lf/free_hunt3.JPEG"
-                    alt="John D."
+                    src="/assets/kodyk.jpg"
+                    alt="Kody K."
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-[#2c1810]">John D.</h4>
+                  <h4 className="text-xl font-semibold text-[#2c1810]">Kody K.</h4>
                   <p className="text-[#2c1810]/80">Texas</p>
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                &quot;My experience with Honest Outfitters exceeded all expectations. The guides were knowledgeable, the accommodations were top-notch, and I harvested the trophy of a lifetime. I&apos;ll definitely be back!&quot;
+                &quot;Brendan was absolutely fantastic. Very patient with my 6 year old son and daughter along with making the hunt for my 17 and 13 year old boys extremely memorable. Put my dad on a great little first ever exotic animal and I polished off the trio with a very cool Scimbok. I highly recommend giving Honest Outfitters a shot. Thanks for a great time and amazing experience! I hope to see you again soon and happy hunting to all!&quot;
               </p>
             </div>
             
@@ -335,19 +336,19 @@ export default function Home() {
               <div className="flex items-center mb-6">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
                   <Image
-                    src="/assets/5_star_corporate_hunts/corporate5.JPEG"
-                    alt="Michael R."
+                    src="/assets/johnm.JPG"
+                    alt="John M."
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-[#2c1810]">Michael R.</h4>
-                  <p className="text-[#2c1810]/80">California</p>
+                  <h4 className="text-xl font-semibold text-[#2c1810]">John M.</h4>
+                  <p className="text-[#2c1810]/80">Texas</p>
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                &quot;Our corporate retreat with Honest Outfitters was the perfect team-building experience. The staff took care of every detail, allowing us to focus on bonding and enjoying the hunt. The memories we made will last a lifetime.&quot;
+                &quot;I had an excellent hunt with Brendan and Hunner. We harvested a beautiful Axis Buck the other day. Both of them are excellent guides, very hospitable, and great to hang out with. They will take excellent care of you from harvest, through processing, and taxidermy! They are my &quot;go to&quot; guides from here on.&quot;
               </p>
             </div>
             

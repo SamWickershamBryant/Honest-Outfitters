@@ -48,7 +48,7 @@ export default function CorporateHunts() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate2.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_group.jpg"
                   alt="Team Building"
                   fill
                   className="object-cover"
@@ -61,7 +61,6 @@ export default function CorporateHunts() {
                   <li>Build trust through shared experiences</li>
                   <li>Improve communication and collaboration</li>
                   <li>Create lasting memories that translate to workplace camaraderie</li>
-                  <li>Develop problem-solving skills in a natural setting</li>
                 </ul>
                 <p className="text-[#2c1810]">
                   Our guided hunts create natural opportunities for team members to connect, collaborate, and build relationships that enhance workplace dynamics.
@@ -72,7 +71,7 @@ export default function CorporateHunts() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate3.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_car.jpg"
                   alt="Luxury Experience"
                   fill
                   className="object-cover"
@@ -105,7 +104,7 @@ export default function CorporateHunts() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate4.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_lodging2.jpg"
                   alt="Luxury Lodge"
                   fill
                   className="object-cover rounded-lg shadow-xl"
@@ -131,7 +130,7 @@ export default function CorporateHunts() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/5_star_corporate_hunts/corporate5.JPEG"
+                  src="/assets/5_star_corporate_hunts/cor_food3.jpg"
                   alt="Gourmet Dining"
                   fill
                   className="object-cover rounded-lg shadow-xl"
@@ -165,7 +164,7 @@ export default function CorporateHunts() {
             <div className="bg-[#f5f5dc] rounded-lg shadow-lg overflow-hidden">
               <div className="p-8">
                 <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Executive Package</h3>
-                <p className="text-[#2c1810] mb-6">Perfect for smaller executive teams of 4-6 people</p>
+                <p className="text-[#2c1810] mb-6">Perfect for smaller executive groups of 4-6 people</p>
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -215,13 +214,13 @@ export default function CorporateHunts() {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Leadership Package</h3>
-                <p className="text-[#2c1810] mb-6">Ideal for teams of 8-12 people</p>
+                <p className="text-[#2c1810] mb-6">Ideal for groups of 8-12 people</p>
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">5-day guided hunt</span>
+                    <span className="text-[#2c1810]">4-day guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -239,7 +238,7 @@ export default function CorporateHunts() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Team building activities</span>
+                    <span className="text-[#2c1810]">Bass fishing/Skeet shooting</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -274,7 +273,7 @@ export default function CorporateHunts() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">7-day customized program</span>
+                    <span className="text-[#2c1810]">5-day customized program</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -292,13 +291,13 @@ export default function CorporateHunts() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Structured team building program</span>
+                    <span className="text-[#2c1810]">Bass fishing/Skeet shooting</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Full-service concierge</span>
+                    <span className="text-[#2c1810]">Full-service/Open bar</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

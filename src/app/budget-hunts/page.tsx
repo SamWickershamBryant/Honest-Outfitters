@@ -8,7 +8,7 @@ export default function BudgetHunts() {
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/assets/meat_budget_friendly/budget1.JPEG"
+            src="/assets/meat_budget_friendly/budget_hunt10.JPEG"
             alt="Budget Friendly Hunting"
             fill
             className="object-cover"
@@ -49,7 +49,7 @@ export default function BudgetHunts() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/meat_budget_friendly/budget2.JPEG"
+                  src="/assets/meat_budget_friendly/budget_hunt12.JPEG"
                   alt="Meat Hunts"
                   fill
                   className="object-cover"
@@ -77,7 +77,7 @@ export default function BudgetHunts() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/meat_budget_friendly/budget3.JPEG"
+                  src="/assets/meat_budget_friendly/budget_hunt11.JPEG"
                   alt="Management Hunts"
                   fill
                   className="object-cover"
@@ -90,7 +90,7 @@ export default function BudgetHunts() {
                 </p>
                 <ul className="list-disc pl-6 text-[#2c1810] space-y-2 mb-6">
                   <li>Management Whitetail Bucks</li>
-                  <li>Management Exotic Males</li>
+                  <li>Management Exotic Bucks</li>
                   <li>Cull Hunts</li>
                   <li>Guided experience</li>
                   <li>Trophy preparation included</li>
@@ -140,7 +140,7 @@ export default function BudgetHunts() {
                     <span className="text-[#2c1810]">Harvest 1 animal</span>
                   </li>
                 </ul>
-                <p className="text-[#2c1810] font-semibold mb-6">Starting at $350</p>
+                <p className="text-[#2c1810] font-semibold mb-6">Starting at $1,000</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-[#2c1810] hover:bg-[#3d241a] text-white py-3 rounded-lg text-center transition-colors font-medium"
@@ -189,7 +189,7 @@ export default function BudgetHunts() {
                     <span className="text-[#2c1810]">Field dressing and basic processing</span>
                   </li>
                 </ul>
-                <p className="text-[#2c1810] font-semibold mb-6">Starting at $750</p>
+                <p className="text-[#2c1810] font-semibold mb-6">Starting at $2,000</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-[#e67e22] hover:bg-[#d35400] text-white py-3 rounded-lg text-center transition-colors font-medium"
@@ -208,7 +208,7 @@ export default function BudgetHunts() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">3-day guided hunt for up to 4 people</span>
+                    <span className="text-[#2c1810]">3-day guided hunt for 4+ people</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -232,7 +232,7 @@ export default function BudgetHunts() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Complete processing services</span>
+                    <span className="text-[#2c1810]">Complete game care</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -241,7 +241,7 @@ export default function BudgetHunts() {
                     <span className="text-[#2c1810]">Youth hunter discounts</span>
                   </li>
                 </ul>
-                <p className="text-[#2c1810] font-semibold mb-6">Starting at $1,800</p>
+                <p className="text-[#2c1810] font-semibold mb-6">Starting at $4,000</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-[#2c1810] hover:bg-[#3d241a] text-white py-3 rounded-lg text-center transition-colors font-medium"
@@ -272,7 +272,7 @@ export default function BudgetHunts() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/meat_budget_friendly/budget4.JPEG"
+                  src="/assets/meat_budget_friendly/budget_hunt8.JPEG"
                   alt="Quality Experience"
                   fill
                   className="object-cover rounded-lg shadow-xl"
@@ -298,7 +298,7 @@ export default function BudgetHunts() {
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full">
                 <Image
-                  src="/assets/meat_budget_friendly/budget5.JPEG"
+                  src="/assets/meat_budget_friendly/budget_family.JPEG"
                   alt="Family Friendly"
                   fill
                   className="object-cover rounded-lg shadow-xl"
