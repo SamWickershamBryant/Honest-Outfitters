@@ -83,7 +83,7 @@ export default function Contact() {
                   name="name" 
                   id="name" 
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2c1810]"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2c1810] text-[#2c1810]"
                 />
               </div>
               
@@ -96,7 +96,7 @@ export default function Contact() {
                   name="email" 
                   id="email" 
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2c1810]"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2c1810] text-[#2c1810]"
                 />
               </div>
               
@@ -109,7 +109,7 @@ export default function Contact() {
                   id="message" 
                   rows={6}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2c1810]"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#2c1810] text-[#2c1810]"
                 ></textarea>
               </div>
               
