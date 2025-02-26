@@ -1,6 +1,44 @@
-import React from 'react';
+'use client';
+import React, { useState, FormEvent } from 'react';
 
 export default function Contact() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    setError('');
+    
+    try {
+      const form = event.currentTarget;
+      const formData = new FormData(form);
+      
+      // Convert FormData to a format URLSearchParams can handle
+      const formDataObj: Record<string, string> = {};
+      formData.forEach((value, key) => {
+        formDataObj[key] = value.toString();
+      });
+      
+      await fetch("/contactform.html", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formDataObj).toString(),
+      });
+      
+      // Success handling
+      setIsSubmitted(true);
+      form.reset();
+    } catch (err) {
+      // Error handling
+      setError('There was a problem submitting your form. Please try again.');
+      console.error('Form submission error:', err);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div className="pt-20">
       <div className="container mx-auto px-4 py-16">
@@ -14,16 +52,27 @@ export default function Contact() {
               Have any questions or interested in booking a hunt? We&apos;d love to hear from you!
             </p>
             
-            {/* Netlify Form */}
+            {/* Success message */}
+            {isSubmitted && (
+              <div className="mb-6 p-4 bg-green-100 text-green-800 rounded-md text-center">
+                Thank you for your message! We'll get back to you soon.
+              </div>
+            )}
+            
+            {/* Error message */}
+            {error && (
+              <div className="mb-6 p-4 bg-red-100 text-red-800 rounded-md text-center">
+                {error}
+              </div>
+            )}
+            
+            {/* Contact Form */}
             <form 
               name="contact" 
-              method="POST" 
-              data-netlify="true"
+              onSubmit={handleFormSubmit}
               className="space-y-6"
-              netlify-honeypot="bot-field"
             >
               <input type="hidden" name="form-name" value="contact" />
-              
               
               <div>
                 <label htmlFor="name" className="block text-[#2c1810] font-medium mb-2">
@@ -68,8 +117,9 @@ export default function Contact() {
                 <button 
                   type="submit" 
                   className="bg-[#e67e22] hover:bg-[#d35400] text-white font-bold py-3 px-8 rounded-lg transition-colors"
+                  disabled={isSubmitting}
                 >
-                  Send Message
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
               </div>
             </form>
