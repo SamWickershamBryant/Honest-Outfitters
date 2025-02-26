@@ -121,7 +121,7 @@ export default function Home() {
                   <h4 className="text-xl font-semibold text-[#2c1810] mb-4">Premium Accommodations</h4>
                   <p className="text-[#2c1810]">
                     Enjoy luxury lodging and gourmet camp cuisine prepared by our skilled chef, 
-                    ensuring comfort and satisfaction after your day's adventure.
+                    ensuring comfort and satisfaction after your day&apos;s adventure.
                   </p>
                 </div>
                 <div className="p-6 bg-[#f5f5dc] rounded-lg">

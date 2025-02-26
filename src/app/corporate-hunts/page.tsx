@@ -56,7 +56,7 @@ export default function CorporateHunts() {
                 Contact Us for Corporate Packages
               </h3>
               <p className="text-[#2c1810] mb-6">
-                Let us create a customized corporate hunting experience that meets your team's objectives.
+                Let us create a customized corporate hunting experience that meets your team&apos;s objectives.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 

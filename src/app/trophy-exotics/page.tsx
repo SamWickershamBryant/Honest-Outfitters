@@ -21,7 +21,7 @@ export default function TrophyExotics() {
           <div className="prose max-w-none">
             <p className="text-lg text-[#2c1810] mb-6">
               Experience the thrill of hunting exotic game in Texas. Our 5-star trophy exotic hunts 
-              offer unique opportunities to pursue some of the world's most magnificent species in 
+              offer unique opportunities to pursue some of the world&apos;s most magnificent species in 
               carefully managed environments that gurantee the harvest of a trophy animal.
             </p>
             

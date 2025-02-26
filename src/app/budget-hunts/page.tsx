@@ -20,7 +20,7 @@ export default function BudgetHunts() {
           
           <div className="prose max-w-none">
             <p className="text-lg text-[#2c1810] mb-6">
-              Quality hunting experiences shouldn't break the bank. Our budget-friendly hunts 
+              Quality hunting experiences shouldn&apos;t break the bank. Our budget-friendly hunts 
               provide excellent opportunities for both novice and experienced hunters to enjoy 
               the thrill of the hunt while keeping costs manageable.
             </p>
