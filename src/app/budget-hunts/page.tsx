@@ -269,8 +269,8 @@ export default function BudgetHunts() {
           <h2 className="text-3xl font-bold text-[#2c1810] mb-12 text-center">Why Choose Our Budget Hunts</h2>
           
           <div className="flex flex-col lg:flex-row gap-12 items-center mb-16">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/meat_budget_friendly/budget_hunt8.JPEG"
                   alt="Quality Experience"
@@ -295,8 +295,8 @@ export default function BudgetHunts() {
           </div>
           
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/meat_budget_friendly/budget_family.JPEG"
                   alt="Family Friendly"

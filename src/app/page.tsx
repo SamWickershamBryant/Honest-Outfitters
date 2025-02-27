@@ -259,8 +259,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-[#2c1810] text-center mb-16">Luxury Accommodations & Dining</h2>
           
           <div className="flex flex-col lg:flex-row gap-12 items-center mb-16">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/5_star_corporate_hunts/cor_lodging1.JPG"
                   alt="Luxury Lodge"
@@ -281,8 +281,8 @@ export default function Home() {
           </div>
           
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/5_star_corporate_hunts/cor_food4.JPG"
                   alt="Gourmet Dining"
@@ -357,19 +357,19 @@ export default function Home() {
               <div className="flex items-center mb-6">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
                   <Image
-                    src="/assets/meat_budget_friendly/budget2.JPEG"
-                    alt="Sarah L."
+                    src="/assets/doug.jpg"
+                    alt="Doug S."
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-[#2c1810]">Sarah L.</h4>
-                  <p className="text-[#2c1810]/80">Colorado</p>
+                  <h4 className="text-xl font-semibold text-[#2c1810]">Doug S.</h4>
+                  <p className="text-[#2c1810]/80">Texas</p>
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                &quot;As a first-time hunter, I was nervous, but the team at Honest Outfitters made me feel comfortable and confident. Their patience and expertise helped me harvest my first deer, and the chef prepared it beautifully. An unforgettable experience!&quot;
+                &quot;Brendon is a great guide and a lot of fun to hunt with.  I appreciate his willingness to accommodate the style of hunt you are looking for, his openness and transparency about costs, and his drive to get it done while making great memories.  Thank you for a few great experiences so far and looking forward to more!&quot;
               </p>
             </div>
           </div>

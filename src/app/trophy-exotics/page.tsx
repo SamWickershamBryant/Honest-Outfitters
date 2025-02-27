@@ -277,8 +277,8 @@ export default function TrophyExotics() {
           <h2 className="text-3xl font-bold text-[#2c1810] mb-12 text-center">The Luxury Exotic Hunting Experience</h2>
           
           <div className="flex flex-col lg:flex-row gap-12 items-center mb-16">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/5_star_corporate_hunts/cor_lodging3.JPG"
                   alt="Luxury Accommodations"
@@ -299,8 +299,8 @@ export default function TrophyExotics() {
           </div>
           
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/5_start_trophy_exotics/trophy_guide.jpg"
                   alt="Expert Guides"

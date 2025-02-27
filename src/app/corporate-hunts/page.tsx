@@ -101,8 +101,8 @@ export default function CorporateHunts() {
           <h2 className="text-3xl font-bold text-[#2c1810] mb-12 text-center">5-Star Accommodations & Amenities</h2>
           
           <div className="flex flex-col lg:flex-row gap-12 items-center mb-16">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/5_star_corporate_hunts/cor_lodging2.jpg"
                   alt="Luxury Lodge"
@@ -127,8 +127,8 @@ export default function CorporateHunts() {
           </div>
           
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
-            <div className="lg:w-1/2">
-              <div className="relative h-96 w-full">
+            <div className="lg:w-1/2 w-full">
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
                 <Image
                   src="/assets/5_star_corporate_hunts/cor_food3.jpg"
                   alt="Gourmet Dining"
@@ -342,12 +342,12 @@ export default function CorporateHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  &quot;Our sales team&apos;s retreat with Honest Outfitters was the perfect blend of luxury, adventure, and team building. The connections made during our hunt have translated to improved collaboration back at the office. Worth every penny!&quot;
+                  &quot;Brendan was amazing when we hunted with him. There was a group of 6 of us and he helped in every way. It was my first time with a hunt using a guide and I was not disappointed. He got me on a beautiful stag, recorded my shot for me, got amazing pictures, and even took a bite of the heart with me! Can&apos;t recommend him enough!&quot;
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-[#2c1810] font-semibold">- James W.</p>
-                <p className="text-[#2c1810] text-sm">VP of Sales, Tech Solutions Inc.</p>
+                <p className="text-[#2c1810] font-semibold">- Jake T.</p>
+                <p className="text-[#2c1810] text-sm">General Manager, Nationwide Trailers</p>
               </div>
             </div>
             
