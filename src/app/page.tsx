@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 order-1 md:order-2">
               <Image
-                src="/assets/5_start_trophy_exotics/exotic1.JPEG"
+                src="/assets/fawn.jpg"
                 alt="Conservation Efforts"
                 width={600}
                 height={400}
