@@ -8,7 +8,7 @@ export default function CorporateHunts() {
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/assets/5_star_corporate_hunts/corporate1.JPEG"
+            src="/assets/5_star_corporate_hunts/corp_collage.png"
             alt="Corporate Hunting Experience"
             fill
             className="object-cover"
@@ -359,12 +359,12 @@ export default function CorporateHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  &quot;We brought our top clients for a corporate hunt, and Honest Outfitters exceeded all expectations. The private lodge, gourmet meals, and exceptional hunting created the perfect environment for strengthening our business relationships.&quot;
+                  &quot;Highly recommend Brendan. Me and 2 buddies hunted with Brendan and he was extremely honest, knowledgeable, and went above and beyond to get us on the animals we had picked to hunt. Brendan made sure we targeted nothing but the best and biggest in the herds.&quot;
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-[#2c1810] font-semibold">- Michael R.</p>
-                <p className="text-[#2c1810] text-sm">CEO, Global Investments Ltd.</p>
+                <p className="text-[#2c1810] font-semibold">- Jason R.</p>
+                <p className="text-[#2c1810] text-sm">Pilot</p>
               </div>
             </div>
           </div>

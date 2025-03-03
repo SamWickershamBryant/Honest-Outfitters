@@ -353,7 +353,7 @@ export default function TrophyExotics() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  &quot;The Super Exotic package was worth every penny. I harvested a magnificent Scimitar Oryx and enjoyed the luxury accommodations and gourmet meals. The attention to detail in the trophy preparation was impressive. A world-class experience!&quot;
+                  &quot;The Super Exotic package was worth every penny. I harvested a magnificent Addax and enjoyed the luxury accommodations and gourmet meals. The attention to detail in the trophy preparation was impressive.&quot;
                 </p>
               </div>
               <div className="text-right">

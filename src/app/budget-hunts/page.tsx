@@ -353,11 +353,11 @@ export default function BudgetHunts() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  &quot;The Weekend Package was perfect for what I needed. I harvested two does and a management buck, and the processing service made it so convenient. Quality experience without breaking the bank - I&apos;ll definitely be back next season!&quot;
+                  &quot;The Weekend Package was perfect for what I needed. I harvested two does and a management buck, and the processing service made it so convenient. I&apos;ll definitely be back next season!&quot;
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-[#2c1810] font-semibold">- Sarah K.</p>
+                <p className="text-[#2c1810] font-semibold">- Soham R.</p>
                 <p className="text-[#2c1810] text-sm">Weekend Meat Hunt</p>
               </div>
             </div>

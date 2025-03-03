@@ -369,7 +369,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#2c1810] italic">
-                &quot;Brendon is a great guide and a lot of fun to hunt with.  I appreciate his willingness to accommodate the style of hunt you are looking for, his openness and transparency about costs, and his drive to get it done while making great memories.  Thank you for a few great experiences so far and looking forward to more!&quot;
+                &quot;Brendan is a great guide and a lot of fun to hunt with.  I appreciate his willingness to accommodate the style of hunt you are looking for, his openness and transparency about costs, and his drive to get it done while making great memories.  Thank you for a few great experiences so far and looking forward to more!&quot;
               </p>
             </div>
           </div>

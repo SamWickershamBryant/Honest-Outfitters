@@ -49,7 +49,7 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt2.JPEG"
+                  src="/assets/caribou.JPG"
                   alt="North American Big Game"
                   fill
                   className="object-cover"
@@ -58,14 +58,12 @@ export default function FreeRangeBigGame() {
               <div className="p-8">
                 <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">North American Big Game</h3>
                 <ul className="list-disc pl-6 text-[#2c1810] space-y-2 mb-6">
+                  <li>Alaskan Moose and Caribou</li>
                   <li>West Texas Elk</li>
                   <li>Sonoran Desert Mule Deer</li>
                   <li>North Carolina Black Bear</li>
-                  <li>Alaskan Moose and Caribou</li>
-                  <li>Rocky Mountain Bighorn Sheep</li>
-                  <li>Desert Bighorn Sheep</li>
-                  <li>Mountain Goat</li>
-                  <li>Whitetail Deer</li>
+                  <li>Texas Aoudad</li>
+                  <li>Alaskan Mountain Goat</li>
                 </ul>
                 <p className="text-[#2c1810]">
                   Our North American hunts take place in prime territories known for producing quality trophies, from the rugged mountains of Alaska to the desert landscapes of the Southwest.
@@ -77,7 +75,7 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-80">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt3.JPEG"
+                  src="/assets/stag.JPG"
                   alt="International Big Game"
                   fill
                   className="object-cover"
@@ -88,10 +86,9 @@ export default function FreeRangeBigGame() {
                 <ul className="list-disc pl-6 text-[#2c1810] space-y-2 mb-6">
                   <li>New Zealand Red Stag and Tahr</li>
                   <li>African Plains Game</li>
-                  <li>Spanish Ibex</li>
+                  <li>Canadian Black Bear</li>
                   <li>Argentinian Red Stag</li>
                   <li>Canadian Moose</li>
-                  <li>European Roe Deer</li>
                 </ul>
                 <p className="text-[#2c1810]">
                   Through our network of trusted international partners, we coordinate exceptional hunting experiences worldwide, ensuring the same level of quality and ethical standards that define our North American hunts.
@@ -111,13 +108,13 @@ export default function FreeRangeBigGame() {
             {/* Standard Package */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-8">
-                <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Standard Package</h3>
+                <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Standard Nilgai Hunt</h3>
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">5-day guided hunt</span>
+                    <span className="text-[#2c1810]">3-day/3-night guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -144,7 +141,7 @@ export default function FreeRangeBigGame() {
                     <span className="text-[#2c1810]">Field dressing and trophy preparation</span>
                   </li>
                 </ul>
-                <p className="text-[#2c1810] font-semibold mb-6">Starting at $4,500</p>
+                <p className="text-[#2c1810] font-semibold mb-6">Inquire for Pricing</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-[#2c1810] hover:bg-[#3d241a] text-white py-3 rounded-lg text-center transition-colors font-medium"
@@ -160,13 +157,13 @@ export default function FreeRangeBigGame() {
                 <span className="text-white font-semibold">MOST POPULAR</span>
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Premium Package</h3>
+                <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Premium Axis Hunt</h3>
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">7-day guided hunt</span>
+                    <span className="text-[#2c1810]">3-day/2-night guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -196,10 +193,10 @@ export default function FreeRangeBigGame() {
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">Professional photography of your hunt</span>
+                    <span className="text-[#2c1810]">No hidden fees</span>
                   </li>
                 </ul>
-                <p className="text-[#2c1810] font-semibold mb-6">Starting at $7,500</p>
+                <p className="text-[#2c1810] font-semibold mb-6">Inquire for Pricing</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-[#e67e22] hover:bg-[#d35400] text-white py-3 rounded-lg text-center transition-colors font-medium"
@@ -212,13 +209,13 @@ export default function FreeRangeBigGame() {
             {/* Elite Package */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-8">
-                <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Elite Package</h3>
+                <h3 className="text-2xl font-semibold text-[#2c1810] mb-4">Elite Elk Package</h3>
                 <ul className="mb-6 space-y-2">
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-[#2c1810]">10-day guided hunt</span>
+                    <span className="text-[#2c1810]">5-day/4-night guided hunt</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -251,7 +248,7 @@ export default function FreeRangeBigGame() {
                     <span className="text-[#2c1810]">Professional videography of your hunt</span>
                   </li>
                 </ul>
-                <p className="text-[#2c1810] font-semibold mb-6">Starting at $12,000</p>
+                <p className="text-[#2c1810] font-semibold mb-6">Inquire for Pricing</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-[#2c1810] hover:bg-[#3d241a] text-white py-3 rounded-lg text-center transition-colors font-medium"
@@ -283,7 +280,7 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt1.JPEG"
+                  src="/assets/texas.JPG"
                   alt="Texas Hunting"
                   fill
                   className="object-cover"
@@ -292,7 +289,7 @@ export default function FreeRangeBigGame() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Texas</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Prime hunting grounds for free-range elk, whitetail deer, and exotic species across West Texas and the Hill Country.
+                  Prime hunting grounds for free-range Elk, Whitetail deer, and exotic species across West Texas and the Hill Country.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: October - January
@@ -304,16 +301,16 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt2.JPEG"
+                  src="/assets/mexico.JPG"
                   alt="Arizona Hunting"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Arizona</h3>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Mexico</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Sonoran Desert territories offering exceptional mule deer, Coues deer, and javelina hunting experiences.
+                  Sonoran Desert territories offering exceptional Mule deer, Coues deer, and Javelina hunting experiences.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: November - December
@@ -325,7 +322,7 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt3.JPEG"
+                  src="/assets/alaska.jpg"
                   alt="Alaska Hunting"
                   fill
                   className="object-cover"
@@ -334,7 +331,7 @@ export default function FreeRangeBigGame() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Alaska</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Vast wilderness offering world-class moose, caribou, brown bear, and mountain goat hunting.
+                  Vast wilderness offering world-class Moose, Caribou, Brown bear, and Mountain goat hunting.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: September - October
@@ -346,16 +343,16 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt1.JPEG"
+                  src="/assets/africa.jpg"
                   alt="Colorado Hunting"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Colorado</h3>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Africa</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Rocky Mountain terrain perfect for elk, mule deer, and bighorn sheep hunts at various elevations.
+                  Diverse savanna and bushveld terrain offering premier Plains game hunting including Kudu, Impala, Wildebeest, Zebra, and other iconic African species.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: September - November
@@ -367,7 +364,7 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt2.JPEG"
+                  src="/assets/norcal.jpg"
                   alt="North Carolina Hunting"
                   fill
                   className="object-cover"
@@ -376,7 +373,7 @@ export default function FreeRangeBigGame() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-2">North Carolina</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Appalachian Mountain regions offering excellent black bear and whitetail deer hunting.
+                  Appalachian Mountain regions offering excellent Black bear and Upland bird hunting.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: October - December
@@ -388,7 +385,7 @@ export default function FreeRangeBigGame() {
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-64">
                 <Image
-                  src="/assets/free_range_big_game_lf/free_hunt3.JPEG"
+                  src="/assets/newzealand.jpg"
                   alt="New Zealand Hunting"
                   fill
                   className="object-cover"
@@ -397,7 +394,7 @@ export default function FreeRangeBigGame() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-2">New Zealand</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Breathtaking alpine terrain for red stag, tahr, and chamois hunting adventures.
+                  Breathtaking alpine terrain for Red stag, Tahr, Chamois, and many more hunting adventures.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: March - August
@@ -439,12 +436,12 @@ export default function FreeRangeBigGame() {
                   </svg>
                 </div>
                 <p className="text-[#2c1810] italic">
-                  &quot;As a first-time big game hunter, I was nervous about my Alaskan moose hunt. The team at Honest Outfitters made me feel comfortable and confident. Their patience and expertise helped me harvest a beautiful bull moose. An experience I&apos;ll never forget!&quot;
+                  &quot;My guided Aoudad hunt in West Texas was incredible. The terrain was challenging but our guide&apos;s expertise and patience paid off when we spotted a magnificent ram. His knowledge of the area and the animals behavior was impressive. Successfully harvesting that trophy Aoudad was one of my proudest hunting moments.&quot;
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-[#2c1810] font-semibold">- Jennifer K.</p>
-                <p className="text-[#2c1810] text-sm">Alaska Moose Hunt</p>
+                <p className="text-[#2c1810] font-semibold">- Steve M.</p>
+                <p className="text-[#2c1810] text-sm">West Texas Aoudad Hunt</p>
               </div>
             </div>
           </div>
