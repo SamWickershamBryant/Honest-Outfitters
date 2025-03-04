@@ -8,8 +8,21 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Honest Outfitters - Premier Hunting Adventures",
+  title: "Honest Outfitters Hunting",
   description: "Your premier destination for guided hunting adventures, specializing in free-range big game.",
+  openGraph: {
+    title: "Honest Outfitters Hunting",
+    description: "Your premier destination for guided hunting adventures, specializing in free-range big game.",
+    images: [
+      {
+        url: "/assets/logo_black.png",
+        width: 1200,
+        height: 630,
+        alt: "Honest Outfitters",
+      }
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
