@@ -1,5 +1,30 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+// Replace with your actual domain
+const siteUrl = "https://honestoutfittersllc.com";
+
+export const metadata: Metadata = {
+  title: "Honest Outfitters Hunting",
+  description: "Your premier destination for guided hunting adventures, specializing in free-range big game.",
+  openGraph: {
+    title: "Honest Outfitters Hunting",
+    description: "Your premier destination for guided hunting adventures, specializing in free-range big game.",
+    images: [{
+      url: `${siteUrl}/assets/thumbnail.png`,
+      width: 1200,
+      height: 630,
+      alt: "Honest Outfitters",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Honest Outfitters Hunting",
+    description: "Your premier destination for guided hunting adventures, specializing in free-range big game.",
+    images: [`${siteUrl}/assets/thumbnail.png`],
+  },
+};
 
 export default function Home() {
   return (
