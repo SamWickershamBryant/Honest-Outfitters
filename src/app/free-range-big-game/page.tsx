@@ -235,12 +235,7 @@ export default function FreeRangeBigGame() {
                     </svg>
                     <span className="text-[#2c1810]">2 guides per hunter</span>
                   </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-[#2c1810]">Full taxidermy services included</span>
-                  </li>
+                  
                   <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
