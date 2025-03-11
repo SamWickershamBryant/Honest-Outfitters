@@ -326,7 +326,7 @@ export default function FreeRangeBigGame() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-2">Alaska</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Vast wilderness offering world-class Moose, Caribou, Brown bear, and Mountain goat hunting.
+                  Vast wilderness offering world-class Moose, Caribou, Black bear, and Mountain goat hunting.
                 </p>
                 <p className="text-[#2c1810] font-medium">
                   Best Season: September - October
