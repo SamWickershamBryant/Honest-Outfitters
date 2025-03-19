@@ -56,7 +56,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/contact"
+              href="/book.html"
               className="bg-[#e67e22] hover:bg-[#d35400] text-white px-6 py-3 rounded-lg text-center transition-colors font-medium"
             >
               Book Your Adventure
@@ -110,7 +110,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
             <div className="md:w-1/2">
               <Image
-                src="/assets/free_range_big_game_lf/free_guide_crop.jpg"
+                src="/assets/guides_walk.jpg"
                 alt="Expert Guides"
                 width={600}
                 height={400}

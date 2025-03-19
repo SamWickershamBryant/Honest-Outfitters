@@ -72,10 +72,10 @@ export default function Header() {
               ))}
             </nav>
             <Link 
-              href="/contact" 
+              href="/book.html" 
               className="bg-[#e67e22] hover:bg-[#d35400] text-white px-4 py-2 rounded-lg transition-colors font-medium"
             >
-              Contact Us
+              Book now
             </Link>
           </div>
 
@@ -131,11 +131,11 @@ export default function Header() {
                 </Link>
               ))}
               <Link 
-                href="/contact" 
+                href="/book.html" 
                 className="bg-[#e67e22] hover:bg-[#d35400] text-white px-4 py-3 rounded-lg transition-colors font-medium w-full text-center text-lg mt-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact Us
+                Book now
               </Link>
             </nav>
           </div>
