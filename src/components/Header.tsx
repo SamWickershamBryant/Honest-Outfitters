@@ -10,10 +10,10 @@ export default function Header() {
   const buttonRef = useRef<HTMLButtonElement>(null);
 
   const menuItems = [
-    { name: '5 Star Corporate Hunts', href: '/corporate-hunts' },
-    { name: 'Super/Trophy Exotics', href: '/trophy-exotics' },
-    { name: 'Budget Friendly Hunts', href: '/budget-hunts' },
-    { name: 'Free Range Big Game', href: '/free-range-big-game' },
+    { name: '5-Star African Hunts', href: '/5-star-african-hunts' },
+    { name: '4-Star Exotics', href: '/4-star-exotics' },
+    { name: '5-Star Whitetail', href: '/5-star-whitetail' },
+    { name: 'Oklahoma Big Game', href: '/oklahoma-big-game' },
   ];
 
   useEffect(() => {
@@ -45,10 +45,10 @@ export default function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className="fixed w-full md:bg-[#2c1810]/90 text-white z-50">
+    <header className="fixed w-full lg:bg-[#2c1810]/90 text-white z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <Link href="/" className="hidden md:flex items-center">
+          <Link href="/" className="hidden lg:flex items-center">
             <Image
               src="/assets/logo_white.PNG"
               alt="Honest Outfitters Logo"
@@ -59,8 +59,8 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
-            <nav className="flex items-center space-x-6 mr-6">
+          <div className="hidden lg:flex items-center gap-4">
+            <nav className="flex items-center gap-4 text-sm lg:gap-6 lg:text-base">
               {menuItems.map((item) => (
                 <Link
                   key={item.name}
@@ -72,7 +72,7 @@ export default function Header() {
               ))}
             </nav>
             <Link 
-              href="/book.html" 
+              href="/contact"
               className="bg-[#e67e22] hover:bg-[#d35400] text-white px-4 py-2 rounded-lg transition-colors font-medium"
             >
               Book now
@@ -82,7 +82,7 @@ export default function Header() {
           {!isMenuOpen && (
             <button
               ref={buttonRef}
-              className="md:hidden p-2 bg-[#2c1810]/90 hover:bg-[#f5f5dc]/50 rounded transition-colors ml-auto"
+              className="lg:hidden p-2 bg-[#2c1810]/90 hover:bg-[#f5f5dc]/50 rounded transition-colors ml-auto"
               onClick={() => setIsMenuOpen(true)}
               aria-label="Open menu"
             >
@@ -97,7 +97,7 @@ export default function Header() {
         {isMenuOpen && (
           <div 
             ref={menuRef}
-            className="md:hidden fixed top-4 left-4 right-4 bg-[#2c1810]/95 z-50 h-auto rounded-xl shadow-lg"
+            className="lg:hidden fixed top-4 left-4 right-4 bg-[#2c1810]/95 z-50 h-auto rounded-xl shadow-lg"
           >
             <div className="p-4 flex justify-between items-center border-b border-white/20">
               <Link href="/" onClick={() => setIsMenuOpen(false)}>
@@ -131,7 +131,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link 
-                href="/book.html" 
+                href="/contact"
                 className="bg-[#e67e22] hover:bg-[#d35400] text-white px-4 py-3 rounded-lg transition-colors font-medium w-full text-center text-lg mt-2"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -143,4 +143,4 @@ export default function Header() {
       </div>
     </header>
   );
-} 
+}

@@ -56,7 +56,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/book.html"
+              href="/contact"
               className="bg-[#e67e22] hover:bg-[#d35400] text-white px-6 py-3 rounded-lg text-center transition-colors font-medium"
             >
               Book Your Adventure
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 order-1 md:order-2">
               <Image
-                src="/assets/free_range_big_game_lf/free_hunt3.JPEG"
+                src="/assets/2.png"
                 alt="Honest Outfitters Heritage"
                 width={600}
                 height={400}
@@ -158,104 +158,108 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-[#2c1810] text-center mb-16">Hunting Experiences</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            {/* Free Range Big Game */}
+            {/* 5-Star African Hunts */}
+            <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/assets/4.png"
+                  alt="5-Star African Hunts"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#e67e22]">Corporate</p>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">5-Star African Hunts</h3>
+                <p className="text-[#2c1810] mb-4">
+                  Premium African hunting experiences for corporate groups and private parties.
+                </p>
+                <Link 
+                  href="/5-star-african-hunts"
+                  className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
+                >
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            
+            {/* 4-Star Exotics */}
+            <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/assets/meat_budget_friendly/budget_hunt10.JPEG"
+                  alt="4-Star Exotics"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#e67e22]">Budget Friendly</p>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">4-Star Exotics</h3>
+                <p className="text-[#2c1810] mb-4">
+                  Texas exotic hunts with straightforward pricing across a wide range of game.
+                </p>
+                <Link 
+                  href="/4-star-exotics"
+                  className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
+                >
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            
+            {/* 5-Star Whitetail */}
+            <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/assets/5.png"
+                  alt="5-Star Whitetail"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#e67e22]">Super Trophy</p>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">5-Star Whitetail</h3>
+                <p className="text-[#2c1810] mb-4">
+                  Trophy-class whitetail hunting with premium accommodations and personal service.
+                </p>
+                <Link 
+                  href="/5-star-whitetail"
+                  className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
+                >
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            
+            {/* Oklahoma Big Game */}
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
                   src="/assets/free_range_big_game_lf/free_hunt1.JPEG"
-                  alt="Free Range Big Game"
+                  alt="Oklahoma Big Game"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">Free Range Big Game</h3>
+                <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#e67e22]">Free Range Big Game</p>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">Oklahoma Big Game</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Experience the thrill of hunting free-range big game in their natural habitat with our expert guides.
+                  All-inclusive guided hunts at our 8,000+ acre Woodward, Oklahoma ranch.
                 </p>
                 <Link 
-                  href="/free-range-big-game"
-                  className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-            
-            {/* Corporate Hunts */}
-            <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
-              <div className="relative h-64">
-                <Image
-                  src="/assets/5_star_corporate_hunts/cor_hunt4.JPEG"
-                  alt="Corporate Hunts"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">Corporate Hunts</h3>
-                <p className="text-[#2c1810] mb-4">
-                  Build team relationships and reward top performers with our exclusive corporate hunting packages.
-                </p>
-                <Link 
-                  href="/corporate-hunts"
-                  className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-            
-            {/* Trophy Exotics */}
-            <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
-              <div className="relative h-64">
-                <Image
-                  src="/assets/5_star_corporate_hunts/cor_hunt.JPEG"
-                  alt="Trophy Exotics"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">Trophy Exotics</h3>
-                <p className="text-[#2c1810] mb-4">
-                  Pursue magnificent exotic game species in our premium hunting grounds with luxury accommodations.
-                </p>
-                <Link 
-                  href="/trophy-exotics"
-                  className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-            
-            {/* Budget Friendly Hunts */}
-            <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
-              <div className="relative h-64">
-                <Image
-                  src="/assets/meat_budget_friendly/budget_hunt13.JPEG"
-                  alt="Budget Friendly Hunts"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">Budget Friendly Hunts</h3>
-                <p className="text-[#2c1810] mb-4">
-                  Quality hunting experiences that won&apos;t break the bank, perfect for filling your freezer.
-                </p>
-                <Link 
-                  href="/budget-hunts"
+                  href="/oklahoma-big-game"
                   className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
                 >
                   Learn More
@@ -426,4 +430,4 @@ export default function Home() {
       </section>
     </>
   );
-} 
+}

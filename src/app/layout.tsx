@@ -87,9 +87,9 @@ export default function RootLayout({
                   (512) 810-1310
                 </a>
                 <span className="hidden md:inline">•</span>
-                <a 
-                  href="https://www.facebook.com/people/Honest-Outfitters/61568215327573/" 
-                  target="_blank" 
+                <a
+                  href="https://www.facebook.com/people/Honest-Outfitters/61589558368905/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#1877F2] hover:text-[#166FE5] transition-colors flex items-center"
                   aria-label="Facebook"
@@ -110,4 +110,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-} 
+}
