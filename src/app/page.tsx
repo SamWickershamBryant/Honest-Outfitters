@@ -158,24 +158,24 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-[#2c1810] text-center mb-16">Hunting Experiences</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            {/* 5-Star African Hunts */}
+            {/* 5-Star Hunting Resort */}
             <div className="bg-[#f5f5dc] rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
                   src="/assets/4.png"
-                  alt="5-Star African Hunts"
+                  alt="5-Star Hunting Resort"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
                 <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#e67e22]">Corporate</p>
-                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">5-Star African Hunts</h3>
+                <h3 className="text-xl font-semibold text-[#2c1810] mb-3">5-Star Hunting Resort</h3>
                 <p className="text-[#2c1810] mb-4">
-                  Premium African hunting experiences for corporate groups and private parties.
+                  Premium guided hunts with five-star lodging and amenities in Gatesville, Texas.
                 </p>
                 <Link 
-                  href="/5-star-african-hunts"
+                  href="/5-star-hunting-resort"
                   className="text-[#e67e22] font-medium hover:text-[#d35400] inline-flex items-center"
                 >
                   Learn More
@@ -197,7 +197,6 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#e67e22]">Budget Friendly</p>
                 <h3 className="text-xl font-semibold text-[#2c1810] mb-3">4-Star Exotics</h3>
                 <p className="text-[#2c1810] mb-4">
                   Texas exotic hunts with straightforward pricing across a wide range of game.

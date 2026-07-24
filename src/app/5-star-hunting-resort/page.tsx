@@ -111,14 +111,14 @@ const africanHuntPrices = [
   },
 ];
 
-export default function FiveStarAfricanHunts() {
+export default function FiveStarHuntingResort() {
   return (
     <>
       <section className="relative flex h-[60vh] items-center justify-center">
         <div className="absolute inset-0 h-full w-full">
           <Image
             src="/assets/4.png"
-            alt="Five-star African hunting experience"
+            alt="Five-star hunting resort experience"
             fill
             className="object-cover"
             priority
@@ -130,7 +130,7 @@ export default function FiveStarAfricanHunts() {
             Corporate
           </p>
           <h1 className="mb-6 text-4xl font-bold md:text-5xl">
-            5-Star African Hunts
+            5-Star Hunting Resort
           </h1>
           <p className="mx-auto max-w-3xl text-xl">
             Premium guided hunts at our Gatesville, Texas ranch

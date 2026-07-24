@@ -5,7 +5,12 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/corporate-hunts",
-        destination: "/5-star-african-hunts",
+        destination: "/5-star-hunting-resort",
+        permanent: true,
+      },
+      {
+        source: "/5-star-african-hunts",
+        destination: "/5-star-hunting-resort",
         permanent: true,
       },
       {

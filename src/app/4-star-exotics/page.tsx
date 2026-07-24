@@ -7,8 +7,8 @@ const texasExoticPrices = [
     title: 'Sheep & Rams',
     entries: [
       { name: 'Aoudad Ewe', price: '$1,500' },
-      { name: 'Aoudad under 30"', price: '$4,000' },
-      { name: 'Aoudad over 30"', price: '$4,750' },
+      { name: 'Aoudad Under 30"', price: '$4,000' },
+      { name: 'Aoudad Over 30"', price: '$4,750' },
       { name: 'Catalina Ram', price: '$2,000' },
       { name: "Jacob's Four-Horn Ram", price: '$2,750' },
       { name: 'Mouflon Ram', price: '$150 per inch' },
@@ -80,9 +80,6 @@ export default function FourStarExotics() {
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <p className="mb-3 text-lg font-semibold uppercase tracking-[0.2em]">
-            Budget Friendly
-          </p>
           <h1 className="mb-6 text-4xl font-bold md:text-5xl">
             4-Star Exotics
           </h1>
@@ -99,9 +96,9 @@ export default function FourStarExotics() {
               Texas 4-Star Exotic Ranch
             </h2>
             <p className="text-lg leading-relaxed text-[#2c1810]">
-              Choose from sheep, rams, deer, elk, stag, and African game at our
-              Texas ranch. Meals and lodging are available for $125 per person,
-              per night.
+              At our 600-acre, 4-star exotic ranch in Roosevelt, Texas, choose
+              from Sheep, Rams, Deer, Elk, Stag, and African Game. Meals and
+              lodging are available for $125 per person, per night.
             </p>
           </div>
         </div>

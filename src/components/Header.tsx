@@ -10,7 +10,7 @@ export default function Header() {
   const buttonRef = useRef<HTMLButtonElement>(null);
 
   const menuItems = [
-    { name: '5-Star African Hunts', href: '/5-star-african-hunts' },
+    { name: '5-Star Hunting Resort', href: '/5-star-hunting-resort' },
     { name: '4-Star Exotics', href: '/4-star-exotics' },
     { name: '5-Star Whitetail', href: '/5-star-whitetail' },
     { name: 'Oklahoma Big Game', href: '/oklahoma-big-game' },
